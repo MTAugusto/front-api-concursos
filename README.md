@@ -1,5 +1,5 @@
 # Web-scraping para concursos brasileiros
-[![licence mit](https://img.shields.io/github/license/MTaugusto/web-scraping)](https://github.com/MTAugusto/web-scraping-concursos/blob/master/LICENSE)
+[![licence mit](https://img.shields.io/github/license/MTaugusto/front-api-concursos)](https://github.com/MTAugusto/front-api-concursos/blob/master/LICENSE)
 
  Projeto para aprendizado.
 
@@ -9,23 +9,15 @@
 
 Stage | `Status`
 ------------- | :-------------:
-Instalação e captura de dados usando puppeteer | Feito
-Tratar dados capturados | Feito
-Criar front para exibição dos dados | Feito
-Passar projeto para Nextjs | Feito
+Criar front para exibição dos dados em NextJs | Feito
 Criar Ambiente de pesquisa para que o usuário consulte os dados desejáveis nos sites a serem buscados | Futuro
-Colocar projeto em um servidor | Futuro
-Criar uma imagem docker para o projeto | Futuro
-Permitir que o usuário deixe pre selecionado a busca padrão (Armazenar tal informação com NoSQL) | Futuro
+Permitir que o usuário deixe pre selecionado a busca padrão | Futuro
 Implementar Novos recursos | Futuro
 
 ## Tecnologias abordadas
 
- *  Web-Scraping usando puppeteerjs.
-
  *  Nextjs.
 
- *  Docker.
 
 ## Started project
 
