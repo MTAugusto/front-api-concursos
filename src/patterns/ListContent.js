@@ -29,6 +29,7 @@ const ListContent = () => {
 		<CarListConcursos flexFlow="column nowrap">
 			{concursos && concursos.length
 	            && concursos.map((concurso, key) => (
+	            	// eslint-disable-next-line react/no-array-index-key
 	            	<CardListConcursos data={concurso} key={`${concurso.title}_${key}`} />
 	            ))}
 		</CarListConcursos>
