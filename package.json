@@ -4,7 +4,7 @@
     "description": "",
     "main": "src/index.js",
     "scripts": {
-        "dev": "npm install && next dev -p 7070",
+        "dev": "npm install && next dev -p 8080",
         "build": "npm install && next build",
         "start": "npm install && next start"
     },

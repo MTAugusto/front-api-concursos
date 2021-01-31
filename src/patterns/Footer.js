@@ -6,14 +6,17 @@ import Link from "../components/Navigation/Link";
 const StyledFooter = styled(Card)`
     display: flex;
     justify-content: flex-end;
-    bottom: 0px;
-    position: fixed;
     height: 40px;
     align-items: center;
     font-weight: 100;
     font-size: 14px;
     padding: 15px;
     box-sizing: border-box;
+
+    @media(min-height: 825px){
+        bottom: 0;
+        position: absolute;
+    }
 `;
 
 const Footer = () => (

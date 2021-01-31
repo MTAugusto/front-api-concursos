@@ -7,6 +7,7 @@ import Card from "../components/Layout/Card";
 import CardSearch from "../patterns/CardSearch";
 import Footer from "../patterns/Footer";
 import ListContent from "../patterns/ListContent";
+import ContentBody from "../infra/component/ContentBody";
 
 class Home extends React.Component {
 	constructor(props) {
@@ -18,18 +19,20 @@ class Home extends React.Component {
 		return (
 			<>
 				<Head title="gConcursos" />
-				<div>
+
+				<ContentBody>
 					<SectionMain>
-						<Card flexCenter flexFlow="column nowrap">
+						<Card flexCenter flexFlow="column nowrap" marginBottom="20px">
 							<ImageContainer />
 							<CardSearch />
 						</Card>
+						<Card flexCenter flexFlow="column nowrap" maxHeigth="300px">
+							<ListContent />
+						</Card>
 					</SectionMain>
-					<Card flexCenter flexFlow="column nowrap" maxHeigth="300px">
-						<ListContent concursos={this.props} />
-					</Card>
+
 					<Footer />
-				</div>
+				</ContentBody>
 			</>
 		);
 	}
